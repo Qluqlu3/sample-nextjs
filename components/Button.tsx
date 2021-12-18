@@ -1,3 +1,7 @@
 export const Button = () => {
-  return <div>ボタン</div>;
+  return (
+    <div>
+      <div>ボタン</div>
+    </div>
+  );
 };

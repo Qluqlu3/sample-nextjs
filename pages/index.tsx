@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const xxx = '';
   return (
     <div>
-      <Button></Button>
+      <Button />
     </div>
   );
 };
