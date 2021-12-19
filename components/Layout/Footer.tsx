@@ -5,11 +5,12 @@ const StyledFooter = styled.footer`
   width: 100%;
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   background-color: #bbbbbb;
+  padding: 10px;
 `;
 
 export const Footer = () => {
-  return <StyledFooter>Footer</StyledFooter>;
+  return <StyledFooter>&copy;Qluqlu3</StyledFooter>;
 };
