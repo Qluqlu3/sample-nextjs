@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   const xxx = '';
   return (
     <div>
-      <Button message={'ボタン'}/>
+      <Button message={'ボタン'} />
     </div>
   );
 };
