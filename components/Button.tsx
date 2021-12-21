@@ -20,9 +20,10 @@ const Wrapper = styled.div`
 
 interface Props {
   message: string;
+  onClick?: () => void;
 }
 
 export const Button: React.FC<Props> = (props: Props) => {
-  const { message } = props;
-  return <Wrapper>{message}</Wrapper>;
+  const { message, onClick } = props;
+  return <Wrapper onClick={onClick}>{message}</Wrapper>;
 };

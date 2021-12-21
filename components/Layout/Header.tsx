@@ -7,7 +7,7 @@ const StyledFooter = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bbbbbb;
+  background-color: #aaaaaa;
 `;
 
 export const Header = () => {
