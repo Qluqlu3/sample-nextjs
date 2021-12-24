@@ -3,13 +3,7 @@ import { Button } from 'components/Button';
 import { Login } from 'components/Login';
 
 const Home: NextPage = () => {
-  const xxx = '';
-  return (
-    <>
-      <Login />
-      <Button message={'ボタン'} />
-    </>
-  );
+  return <Login />;
 };
 
 export default Home;

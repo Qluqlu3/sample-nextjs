@@ -50,7 +50,7 @@ export const Login = () => {
         </LoginInfo>
       ) : (
         <LoginInfo>
-          <Button message={'Sign in'} onClick={() => signIn()} />
+          <Button message={'Sign in'} onClick={() => signIn('github')} />
         </LoginInfo>
       )}
       {status === 'loading' && <Loading />}
