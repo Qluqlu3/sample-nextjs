@@ -10,6 +10,9 @@ const Wrapper = styled.div`
 `;
 
 const LoginInfo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 700px;
   height: 500px;
   background-color: #eee;

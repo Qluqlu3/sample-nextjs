@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 const Content = styled.div`
   width: 100%;
   height: 90vh;
-  background-color: #cccccc;
+  background-color: #dadada;
 `;
 
 interface Props {
