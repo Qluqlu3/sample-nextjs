@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import { Button } from 'components/Button';
-import { Login } from 'components/Login';
+import { Home } from 'components/Home';
 
-const Home: NextPage = () => {
-  return <Login />;
+const HomePage: NextPage = () => {
+  return <Home />;
 };
 
-export default Home;
+export default HomePage;
